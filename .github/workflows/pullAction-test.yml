@@ -19,4 +19,4 @@ jobs:
             - name: "Hello world2s"
               run: echo "Hello World2!s"
             - run: echo "hell"
-            - run: bash "ls"
+            - run: bash "ls exit"
