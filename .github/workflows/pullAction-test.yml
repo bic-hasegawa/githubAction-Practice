@@ -3,4 +3,7 @@ run-name: pullAction-test
 on: push
 jobs:
     steps:
-        -run: echo "Hello World"
+        - uses: actions/checkout@v3
+        - uses: actions/setup-node@v3
+
+        - run: echo "Hello World"
