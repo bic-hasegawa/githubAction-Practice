@@ -3,4 +3,3 @@ run-name: pullAction-test
 on: push
 jobs:
     steps:
-        - run: echo "Hello World"
