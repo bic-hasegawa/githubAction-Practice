@@ -15,4 +15,4 @@ jobs:
         steps:
             - name: "baz"
             - run: echo "baz"
-            - bash: "ls"
+            - bash: ls
