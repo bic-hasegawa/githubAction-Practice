@@ -1,0 +1,4 @@
+name: pullAction-test
+job-name: pullAction-test
+on: pull
+job: run:econ hello
