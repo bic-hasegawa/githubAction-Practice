@@ -1,4 +1,7 @@
 name: pullAction-test
 run-name: pullAction-test
 on: pull
-jobs: run:econ "hello"
+jobs:
+    runs-on: ubuntu-latest
+    steps:
+        -run: echo "Hello World"
