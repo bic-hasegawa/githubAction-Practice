@@ -9,6 +9,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: "Hello world22"
-            - cmd: "dir"
-            - uses: actions/checkout@v3
-            - run: cmd "dir"
+            - run: echo "hel"
