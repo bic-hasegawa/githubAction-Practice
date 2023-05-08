@@ -20,4 +20,3 @@ jobs:
               run: |
                   echo "Hello World2!s"
                   echo "hello2"
-              shell: bash
