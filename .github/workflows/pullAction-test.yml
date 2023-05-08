@@ -1,6 +1,9 @@
 on: [push]
+runs-on: ubuntu-18.04
 jobs:
     foo:
-        name: job foo
-        steps:
+        name: foo
+          steps:
             - run: echo "hello"
+            - shell: echo "hi"
+
