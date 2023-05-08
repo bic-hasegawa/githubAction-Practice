@@ -1,4 +1,4 @@
-on: [push, pull]
+on: [push]
 name: "jobs"
 run-name: "job"
 jobs:
