@@ -1,4 +1,4 @@
 name: pullAction-test
-job-name: pullAction-test
+run-name: pullAction-test
 on: pull
-job: run:econ "hello"
+jobs: run:econ "hello"
