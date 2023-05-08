@@ -10,3 +10,9 @@ jobs:
         steps:
             - name: "Hello world2"
               run: echo "Hello World2!"
+
+    bars:
+        runs-on: ubuntu-latest
+        steps:
+            - name: "Hello world2s"
+              run: echo "Hello World2!s"
