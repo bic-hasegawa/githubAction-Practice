@@ -2,6 +2,5 @@ name: pullAction-test
 run-name: pullAction-test
 on: push
 jobs:
-    runs-on: ubuntu-latest
     steps:
         -run: echo "Hello World"
