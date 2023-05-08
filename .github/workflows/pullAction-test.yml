@@ -13,6 +13,6 @@ jobs:
     baz:
         runs-on: ubuntu-latest
         steps:
-            - name "baz"
-            - run "echo "baz"
-            - bash "ls"
+            - name: "baz"
+            - run: "echo baz"
+            - bash: "ls"
