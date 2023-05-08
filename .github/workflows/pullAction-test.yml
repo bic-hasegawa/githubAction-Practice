@@ -5,3 +5,8 @@ jobs:
         steps:
             - name: "Hello world"
               run: echo "Hello World!"
+    bar:
+        runs-on: ubuntu-latest
+        steps:
+            - name: "Hello world"
+              run: echo "Hello World!"
