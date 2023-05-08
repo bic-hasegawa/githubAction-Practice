@@ -2,4 +2,3 @@ on: [push]
 jobs:
     foo:
         name: job foo
-        run: echo "hello"
