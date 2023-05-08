@@ -1,7 +1,7 @@
 on: [push]
-jobs:
-    runs-on: ubuntu-latest
-    foo:
+jobobs:
+    print-hello-world:
+        runs-on: ubuntu-latest
         steps:
-            - run: echo "hello"
-            - shell: echo "HI"
+            - name: execute echo command
+              run: echo "Hello World!"
