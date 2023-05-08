@@ -1,5 +1,5 @@
 on: [push]
-jobobs:
+jobs:
     print-hello-world:
         runs-on: ubuntu-latest
         steps:
