@@ -10,8 +10,3 @@ jobs:
         steps:
             - name: "Hello world2"
               run: echo "Hello World2!"
-    baz:
-        runs-on: ubuntu-latest
-        steps:
-            - name: "baz31"
-            - run: echo "baz"
