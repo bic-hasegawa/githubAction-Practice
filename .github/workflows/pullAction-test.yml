@@ -1,4 +1,5 @@
 on: [push]
+name: "job"
 run-name: "job"
 jobs:
     foo:
