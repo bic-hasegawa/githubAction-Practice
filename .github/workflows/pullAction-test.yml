@@ -15,4 +15,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: "Hello world2s"
-              run: echo "Hello World2!s"
+            - run: echo "Hello World2!s"
