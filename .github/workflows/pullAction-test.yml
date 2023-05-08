@@ -1,7 +1,7 @@
 on: [push]
 jobs:
-    print-hello-world:
-        runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
+    foo:
         steps:
-            - name: execute echo command
+            - name: "Hello world"
               run: echo "Hello World!"
