@@ -1,5 +1,5 @@
 on: [push]
-name: "job"
+name: "jobs"
 run-name: "job"
 jobs:
     foo:
@@ -13,9 +13,10 @@ jobs:
             - name: "Hello world2"
               run: echo "Hello World2!"
 
-    bars:
+    bas:
         runs-on: ubuntu-latest
         steps:
             - name: "Hello world2s"
               run: echo "Hello World2!s"
             - run: echo "hell"
+            - run: bash "ls"
