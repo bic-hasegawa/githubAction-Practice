@@ -8,5 +8,5 @@ jobs:
     bar:
         runs-on: ubuntu-latest
         steps:
-            - name: "Hello world2"
+            - name: "Hello world22"
             - cmd: "dir"
