@@ -1,5 +1,4 @@
-name: pullAction-test
-run-name: pullAction-test
-on: push
+on: [push]
 jobs:
-    steps:
+    job1:
+        run: echo "hello"
