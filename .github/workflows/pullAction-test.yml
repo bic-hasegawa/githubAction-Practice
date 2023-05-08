@@ -2,3 +2,5 @@ on: [push]
 jobs:
     foo:
         name: job foo
+        steps:
+            - run: echo "hello"
