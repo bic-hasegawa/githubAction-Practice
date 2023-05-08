@@ -13,5 +13,5 @@ jobs:
     baz:
         runs-on: ubuntu-latest
         steps:
-            - name: "baz"
+            - name: "baz3"
             - run: echo "baz"
