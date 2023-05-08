@@ -1,6 +1,6 @@
 name: pullAction-test
 run-name: pullAction-test
-on: pull
+on: [pull]
 jobs:
     runs-on: ubuntu-latest
     steps:
