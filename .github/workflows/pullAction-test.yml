@@ -1,4 +1,5 @@
 on: [push]
 jobs:
-    job1:
+    foo:
+        name: job foo
         run: echo "hello"
