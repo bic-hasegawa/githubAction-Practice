@@ -1,9 +1,10 @@
 on: [push]
-runs-on: ubuntu-18.04
 jobs:
+    runs-on: ubuntu-latest
     foo:
         name: foo
           steps:
             - run: echo "hello"
-            - shell: echo "hi"
+            - shell: echo "HI"
+        name: bar
 
